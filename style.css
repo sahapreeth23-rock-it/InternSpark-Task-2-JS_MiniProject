@@ -1,0 +1,118 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f5ff;
+    color: #222;
+}
+
+/* Navbar */
+.navbar {
+    background: #172554;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    color: #facc15;
+}
+
+/* Welcome Section */
+h1 {
+    color: #172554;
+    font-weight: bold;
+}
+
+main section > p {
+    color: #555;
+}
+
+/* Quiz Box */
+.quiz-box {
+    max-width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-box h2 {
+    color: #172554;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #4338ca;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #312e81;
+}
+
+/* Answer Options */
+.option-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    text-align: left;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background: #dbeafe;
+}
+
+.option-btn.correct {
+    background: #d1fae5;
+    border-color: #059669;
+}
+
+.option-btn.wrong {
+    background: #fee2e2;
+    border-color: #dc2626;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    color: #222;
+    opacity: 1;
+}
+
+/* Progress Bar */
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background: #4338ca;
+    transition: width 0.3s ease;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background: #172554;
+    color: white;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 576px) {
+    .quiz-box {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .navbar-text {
+        font-size: 13px;
+    }
+}
